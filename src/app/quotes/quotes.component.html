@@ -5,5 +5,5 @@
 </ol>
 <button  (click)='toogleDetails(i)'>Toogle Details</button>
 <app-details *ngIf="quote.description" [quote]='quote'></app-details>
-<app-goal-details *ngIf="quote.description" [quote]='quote' (delete)= 'deleteGoal($event,i)'></app-goal-details>
+<app-goal-details *ngIf="goal.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-goal-details>
 </div>

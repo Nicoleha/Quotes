@@ -10,8 +10,9 @@ export class DetailsComponent implements OnInit {
   @Output() delete= new EventEmitter<boolean>();
 
   quoteDelete(complete:boolean){
-    this.delete.emit();
+    this.isComplete.emit(complete);
   }
+
   constructor() { }
 
   ngOnInit() {
