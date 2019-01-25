@@ -1,4 +1,7 @@
 <p>quotes</p>
+<div *ngFor='let quote of quotes'>
 <ol>
-  <li *ngFor='let quote of quotes'>{{quotes.Quotes}}</li>
+  <li>{{quote.name}}</li>
 </ol>
+<button  (click)='toogleDetails(i)'>Toogle Details</button>
+</div>
