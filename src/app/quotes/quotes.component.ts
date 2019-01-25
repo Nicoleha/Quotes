@@ -15,7 +15,9 @@ export class QuotesComponent implements OnInit {
           new Quotes(5,'People living deeply have no fear of death.','Anais Nin',12,5 ),
         
   ]
-
+toogleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+}
   constructor() { }
 
   ngOnInit() {
