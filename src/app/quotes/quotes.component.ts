@@ -15,8 +15,17 @@ export class QuotesComponent implements OnInit {
           new Quotes(5,'People living deeply have no fear of death.','Anais Nin',12,5 ),
         
   ]
+  deleteQuote(deleteQuote,index){
+    if (deleteQuote){
+        let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
+        
+        if(toDelete){
+            this.quotes.splice(index,1)
+        }
+    }
+  }
 toogleDetails(index){
-    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+    this.quotes[index].description = !this.quotes[index].description;
 }
   constructor() { }
 
