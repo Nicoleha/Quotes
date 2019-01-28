@@ -7,8 +7,7 @@
   <li><h2>{{quote.name}}</h2></li>
 
 <button  (click)='toogleDetails(i)'>Details</button><br>
-<button (click)='like()'>Upvote</button><br>
-<button (click)='dislike()'>Downvote</button>
+
 <!-- <app-details *ngIf="quote.description" [quote]='quote'></app-details> -->
 <app-details *ngIf="quote.description" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-details>
 </div>
