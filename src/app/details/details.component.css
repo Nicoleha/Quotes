@@ -1,2 +1,9 @@
-h4{color:blue;}
-button{background-color: aquamarine;}
+h4,h3{
+    background-color: rgb(142, 148, 146);
+text-align:center;
+color:white;
+font-size:20px;
+font-family:monospace;
+}
+button{background-color:rgb(231, 189, 228);
+padding:15px;}

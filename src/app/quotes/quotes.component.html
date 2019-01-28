@@ -5,9 +5,9 @@
 <ol>
 <div *ngFor='let quote of quotes;let i = index'>
 
-  <li><h2>{{quote.name}}</h2></li>
+  <li><strong><em><h4>{{quote.name}}</h4></em></strong><button  (click)='toogleDetails(i)'>Details</button></li>
 
-<button  (click)='toogleDetails(i)'>Details</button><br>
+
 
 <!-- <app-details *ngIf="quote.description" [quote]='quote'></app-details> -->
 <app-details *ngIf="quote.description" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-details>

@@ -2,8 +2,8 @@
 <h4>Author:{{quote.author}}</h4>
 <h4>Added on:{{quote.completeDate}}</h4>
 <h4>Duration:{{quote.completeDate|dateCount}} days</h4>
-<h3>VOTES:{{upvote}}</h3>
-<button (click) = 'quoteDelete(true)'> Delete Quote</button><br>
-<button (click)='like($event,i)'>Upvote</button><br>
+<h3><strong>VOTES:{{upvote}}</strong></h3>
+<button (click) = 'quoteDelete(true)'> Delete Quote</button>
+<button (click)='like($event,i)'>Upvote</button>
 <button (click)='dislike($event,i)'>Downvote</button>
 
