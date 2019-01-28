@@ -1,4 +1,5 @@
-<app-form></app-form>
+<app-form (addGoal)="addNewQuote($event)"></app-form>
+
 
 <ol>
 <div *ngFor='let quote of quotes;let i = index'>

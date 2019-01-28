@@ -15,6 +15,13 @@ export class QuotesComponent implements OnInit {
           new Quotes(5,'People living deeply have no fear of death.','Anais Nin',12,5 ),
         
   ]
+  addNewQuote(quotes){
+    let quoteLength = this.quotes.length;
+    quotes.id=quoteLength+1;
+    // quotes.completeDate = new Date(quotes.completeDate)
+    this.quotes.push(quotes)
+
+}
   deleteQuote(isComplete,index){
     if (isComplete){
         let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
