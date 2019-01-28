@@ -1,15 +1,21 @@
-
-<app-form (addQuote)="addNewQuote($event)"></app-form>
-
-
-<ol>
-<div *ngFor='let quote of quotes;let i = index'>
-
-  <li><strong><em><h4>{{quote.name}}</h4></em></strong><button  (click)='toogleDetails(i)'>Details</button></li>
-
-
-
-<!-- <app-details *ngIf="quote.description" [quote]='quote'></app-details> -->
-<app-details *ngIf="quote.description" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-details>
+<div class="row">
+  <div class="col-md-6">
+      <app-form (addQuote)="addNewQuote($event)"></app-form>
+  </div>
+  <div class="col-md-6">
+      <ol>
+          <div *ngFor='let quote of quotes;let i = index'>
+          
+            <li appStrikethrough><strong><em><h4>{{quote.name}}</h4></em></strong><button  (click)='toogleDetails(i)'>Details</button></li>
+          
+          
+          
+          <!-- <app-details *ngIf="quote.description" [quote]='quote'></app-details> -->
+          <app-details *ngIf="quote.description" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-details>
+          </div>
+          </ol>
+  </div>
 </div>
-</ol>
+
+
+

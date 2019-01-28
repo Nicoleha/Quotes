@@ -1,9 +1,10 @@
 h4,h3{
-    background-color: rgb(142, 148, 146);
+    background-color: rgb(194, 228, 226);
 text-align:center;
-color:white;
+color:rgb(51, 49, 49);
 font-size:20px;
 font-family:monospace;
 }
-button{background-color:rgb(231, 189, 228);
-padding:15px;}
+button{background-color:rgb(226, 209, 209);
+padding:15px;
+border-radius: 10px;}
