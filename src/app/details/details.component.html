@@ -1,8 +1,9 @@
-<h1>Quotes</h1>
-<p>Author:{{quote.author}}</p>
 
-<p>Upvotes:{{quote.upvote}}</p>
+<h4>Author:{{quote.author}}</h4>
 
-<p>downvotes:{{quote.downvote}}</p>
+<h4>Upvotes:{{quote.upvote}}</h4>
+<h4>Added on:{{quote.completeDate}}</h4>
+
+<h4>Duration:{{quote.completeDate|dateCount}} days</h4>
 <button (click) = 'quoteDelete(true)'> Delete Quote</button>
 
