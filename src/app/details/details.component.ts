@@ -7,7 +7,7 @@ import {Quotes} from '../quotes'
 })
 export class DetailsComponent implements OnInit {
   @Input() quote:Quotes;
-  @Output() delete= new EventEmitter<boolean>();
+  @Output() isComplete= new EventEmitter<boolean>();
 
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
