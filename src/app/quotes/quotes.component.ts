@@ -34,10 +34,7 @@ export class QuotesComponent implements OnInit {
 toogleDetails(index){
     this.quotes[index].description = !this.quotes[index].description;
 }
-public upvote:number=0
-like(upvote){
- this.upvote+=1
-}
+
   constructor() { }
 
   ngOnInit() {
