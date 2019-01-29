@@ -6,19 +6,17 @@ import { Directive,ElementRef,HostListener} from '@angular/core';
 })
 export class StrikethroughDirective {
 
-    
-  constructor(private elem:ElementRef){}
-
-  @HostListener("click") onClicks(){
-    this.textDeco("underline")
+  constructor(private el: ElementRef) { }
+ 
+  @HostListener('mouseenter') onMouseEnter() {
+    this.highlight('skyblue');
   }
-
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
+ 
+  @HostListener('mouseleave') onMouseLeave() {
+    this.highlight(null);
   }
-
-  private textDeco(action:string){
-    this.elem.nativeElement.style.textDecoration=action;
-
+ 
+  private highlight(color: string) {
+    this.el.nativeElement.style.backgroundColor = color;
   }
 }

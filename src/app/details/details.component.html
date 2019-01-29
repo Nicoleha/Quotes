@@ -1,9 +1,10 @@
+<div id="four">
+<h6><strong>Author:</strong>{{quote.author}}</h6>
+<h6><strong>Added on:</strong>{{quote.completeDate}}</h6>
+<h6><strong>Duration:</strong>{{quote.completeDate|dateCount}} days</h6>
+<h5><strong>VOTES:{{upvote}}</strong></h5>
+<button id="one" (click) = 'quoteDelete(true)'> Delete Quote</button>
+<button id="two" (click)='like($event,i)'>Upvote</button>
+<button id="three" (click)='dislike($event,i)'>Downvote</button>
 
-<h4>Author:{{quote.author}}</h4>
-<h4>Added on:{{quote.completeDate}}</h4>
-<h4>Duration:{{quote.completeDate|dateCount}} days</h4>
-<h3><strong>VOTES:{{upvote}}</strong></h3>
-<button (click) = 'quoteDelete(true)'> Delete Quote</button>
-<button (click)='like($event,i)'>Upvote</button>
-<button (click)='dislike($event,i)'>Downvote</button>
-
+</div>
