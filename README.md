@@ -1,10 +1,7 @@
 
 # LIFE Quote
-<<<<<<< HEAD
-####Life quote is an app designed to to create quotes and add the to the other quotes of renown authors, January 28th 2019.
-=======
 #### Life quote is an app designed to to create quotes and add the to the other quotes of renown authors, January 28th 2019
->>>>>>> e27adaf62636fa912bdb5faea4ecf5f29fb53832
+
 #### By **NICOLE H.**
 ## Description
 Life quote is an app designed to to create quotes and add the to the other quotes of renown authors. Through life quote the user inputs his/her name and then creates a quote. The user also has an option of upvoting or downvoting a quote basing on the preference.
