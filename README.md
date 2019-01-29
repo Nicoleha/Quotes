@@ -30,10 +30,6 @@ Phone:0732702205-0781899928.
 **[MIT](http://choosealisence.com/licenses/mit/)**
 Copyright (c) 2019 **HATEGEKIMANA NICOLE**
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e27adaf62636fa912bdb5faea4ecf5f29fb53832
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
