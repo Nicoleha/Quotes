@@ -1,6 +1,5 @@
 
 # LIFE Quote
-
 #### Life quote is an app designed to to create quotes and add the to the other quotes of renown authors, January 28th 2019
 
 #### By **NICOLE H.**
