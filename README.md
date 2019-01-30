@@ -8,7 +8,7 @@ Life quote is an app designed to to create quotes and add the to the other quote
 ## Setup/Installation Requirements
 * Open your computer
 * Connect to internet
-* search for my link: https://nicoleha.github.io/quotes/
+* search for my link: https://nicoleha.github.io/Quotes/
 * There you are!
 The Life quote app can be view on mobile or computer and with ease and it is made for easy learning.
 ## App Specifications
