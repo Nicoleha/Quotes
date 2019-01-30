@@ -9,7 +9,7 @@ Life quote is an app designed to to create quotes and add the to the other quote
 * Open your computer
 * Connect to internet
 * search for my link: https://nicoleha.github.io/quotes/
-* There you are, create your own quiz and have fun!!!
+* There you are!
 The Life quote app can be view on mobile or computer and with ease and it is made for easy learning.
 ## App Specifications
 The user is can choose to only read the quotes or also create his own quotes. The user is required to first enter his name, then the quote and date of creation. when the user hits the button add quote, he/she can now create the quote.The user also has an option to upvote or down vote a quote and highlight a quote when needed. The user can also delete a quote he/she doesn't like or even the own of his/her creation.
